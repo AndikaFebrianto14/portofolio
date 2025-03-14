@@ -820,6 +820,33 @@ main {
 }
 
 /*-----------------------------------*\
+ * #certificates
+\*-----------------------------------*/
+
+.container-certificates {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+.card-certificates {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px;
+}
+.card-certificates h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.card-certificates p {
+  font-size: 1rem;
+  color: gray;
+}
+
+/*-----------------------------------*\
  * #CONTACT
 \*-----------------------------------*/
 
